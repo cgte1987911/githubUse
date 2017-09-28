@@ -4,3 +4,9 @@
 4.git log 显示版本改变日志
 5.git checkout 是把工作区的文件替换成暂存区或者版本区的，优先暂存区
 6.git reset --hard 版本号   把工作区的所有文件还原到某个版本的时候
+7.git fetch  先把远端的拉下来
+		>>Git diff master origin/master 查看本地和远端的不同
+		>>Git merge origin/master 以冲突的形式合并到一起
+		>>自己解决修改冲突
+  		>>然后再git push 提交到远端		
+8.git pull 直接用远端覆盖本地
