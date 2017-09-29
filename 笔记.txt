@@ -1,4 +1,4 @@
-1.git add 添加到暂存区  add .是指添加所有文件
+﻿1.git add 添加到暂存区  add .是指添加所有文件
 2.git commit 添加到版本区|| git commit -m " change 3 a.js and b.html"同时提交多个文件，其中change 3是自己指定的注释信息
 3.git reset HEAD 是从暂存区撤销到工作区，就是git add的操作撤销
 4.git log 显示版本改变日志
@@ -9,4 +9,5 @@
 		>>Git merge origin/master 以冲突的形式合并到一起
 		>>自己解决修改冲突
   		>>然后再git push 提交到远端		
-8.git pull 直接用远端覆盖本地
+8.git pull 相当于git fetch和git merge
+9.一开始默认分支是主分支master
